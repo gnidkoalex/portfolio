@@ -11,8 +11,10 @@ function Home() {
             <h1>FULL STACK DEVELOPMENT</h1>
             <p>by alex gnidko</p>
             <div className="home-btns">
-                <Button className="btns" buttonStyle='btn--outline' buttonSize="btn--large">yey</Button>
-                <Button className="btns" buttonStyle='btn--primary' buttonSize="btn--large">yey222</Button>
+                {/* <Button className="btns" buttonStyle='btn--outline' buttonSize="btn--large">yey</Button>
+                <Button className="btns" buttonStyle='btn--primary' buttonSize="btn--large">yey222</Button> */}
+                <button>asdf</button>
+                <button>asdfasdf</button>
             </div>
             
         </div>
