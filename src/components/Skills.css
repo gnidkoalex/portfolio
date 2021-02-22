@@ -1,0 +1,65 @@
+.neon-container{
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction:column ;
+    background: #050801;
+
+}
+.neon-container>a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    /* color: #03e9f4; */
+    font-family: cursive;
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+a.react:hover {
+    background-color:#03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #61DAFB,0 0 25px #61DAFB,0 0 50px #61DAFB,0 0 200px #61DAFB
+}
+.react {
+    color: #61DAFB;
+}
+a.js:hover {
+    background-color:#EFD81C;
+    color: #050801;
+    box-shadow: 0 0 5px #EFD81C,0 0 25px #EFD81C,0 0 50px #EFD81C,0 0 200px #EFD81C
+}
+.js {
+    color: #EFD81C;
+}
+a.PHP:hover {
+    background-color:#7377AD;
+    color: #050801;
+    box-shadow: 0 0 5px #7377AD,0 0 25px #7377AD,0 0 50px #7377AD,0 0 200px #7377AD
+}
+.PHP {
+    color: #7377AD;
+}
+
+a.css:hover {
+    background-color:#3595CF;
+    color: #050801;
+    box-shadow: 0 0 5px #3595CF,0 0 25px #3595CF,0 0 50px #3595CF,0 0 200px #3595CF
+}
+.css {
+    color: #3595CF;
+}
+a.node:hover {
+    background-color:#68A063;
+    color: #050801;
+    box-shadow: 0 0 5px #68A063,0 0 25px #68A063,0 0 50px #68A063,0 0 200px #68A063
+}
+.node {
+    color: #68A063;
+}
