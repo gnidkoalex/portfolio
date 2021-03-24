@@ -1,0 +1,12 @@
+.footerContainer{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background:red;
+    text-align: center;
+    height:150px;
+   bottom: 0;
+    
+}

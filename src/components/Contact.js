@@ -49,48 +49,48 @@ export default function Contact() {
         //     </div>
         // </div>
         <div className="contactContainer">
-        <div  className="login-box">
+            <div className="login-box">
                 <h2>Contact Me</h2>
-        <form className="contact-form" onSubmit={sendEmail}>
-            <div className="user-box"> 
-            <input type="text" name="name" />
-            <label>Name</label>
-            </div>
-            <div className="user-box"> 
-            <input type="text" name="email" />
-            <label>email</label>
-            </div>
-            <div className="user-box"> 
-            <label>message</label>
-            <textarea name="message" cols="30" rows="10"/>
-            
-            </div>
-        {/* <input type="submit" value="Send" /> */}
-        <button type="submit" >
+                <form className="contact-form" onSubmit={sendEmail}>
+                    <div className="user-box">
+                        <input type="text" name="name" />
+                        <label>Name</label>
+                    </div>
+                    <div className="user-box">
+                        <input type="text" name="email" />
+                        <label>email</label>
+                    </div>
+                    <div className="user-box">
+                        <label>message</label>
+                        <textarea name="message" cols="30" rows="10" />
+
+                    </div>
+                    {/* <input type="submit" value="Send" /> */}
+                    <button type="submit" >
                         <span></span>
-                       <span></span>
+                        <span></span>
                        send
                         <span></span>
                         <span></span>
-                     </button>
-        </form>
+                    </button>
+                </form>
+            </div>
+
         </div>
-    
-    </div>
 
     );
     <div className="contactContainer">
-        <div  className="login-box">
-                <h2>Contact Me</h2>
-        <form className="contact-form" onSubmit={sendEmail}>
-            <div className="user-box"> 
-            <input type="hidden" name="name" />
-            <label>Name</label>
-            </div>
-        <input type="submit" value="Send" />
-        </form>
+        <div className="login-box">
+            <h2>Contact Me</h2>
+            <form className="contact-form" onSubmit={sendEmail}>
+                <div className="user-box">
+                    <input type="hidden" name="name" />
+                    <label>Name</label>
+                </div>
+                <input type="submit" value="Send" />
+            </form>
         </div>
-    
+
     </div>
 
 

@@ -5,6 +5,7 @@ import Home from './components/Home'
 import './App.css'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/contact' exact component={Contact} />
         </Switch>
       </Router> 
+      <Footer/>
     </div>
   );
 }

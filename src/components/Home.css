@@ -1,8 +1,8 @@
 video {
     object-fit: cover;
     width: 100%;
-    height: 100%;
-    position: fixed;
+    height: 92vh;
+    position: flex;
     z-index: -1;
 }
 
@@ -11,19 +11,23 @@ video {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2) ;
     object-fit: contain;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.home-header{
+
+    position: absolute;
 }
 
-.home-container > h1 {
+.home-header > h1 {
     color: white;
     font-size: 100px;
   
 }
-.home-container > p {
+.home-header > p {
     margin-top: 8px;
     margin-bottom: 20px;
     color: white;
@@ -32,7 +36,7 @@ video {
 }
 
 @media screen and (max-width:960px){
-    .home-container > h1 {
+    .home-header > h1 {
         font-size: 70px;
         text-align: center;
         
@@ -40,7 +44,7 @@ video {
 }
 
 @media screen and (max-width:768px){
-    .home-container > h1 {
+    .home-header > h1 {
         font-size: 50px;
         text-align: center;
         
