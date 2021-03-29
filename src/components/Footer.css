@@ -1,12 +1,38 @@
 .footerContainer{
-    color:black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background:red;
+    background:black;
+    color:white;
     text-align: center;
     height:150px;
-   bottom: 0;
-    
 }
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0 ;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+.socials :hover {
+    color: #03E9F4
+   
+}
+
+.footerBottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
